@@ -105,6 +105,17 @@ body{
     text-align: center;
 }
 
+input[type=submit]{
+    background-color: rgb(70, 233, 70);
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 50%;
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
 footer{
     text-align: center;
     color: white;
