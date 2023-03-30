@@ -28,15 +28,19 @@
         <div class="dados_pessoais">
             <h2>Digite seus dados pessoais</h2>
            <form class="div-formulario">
+            <div class="form-pessoal">
                 <p>Nome:</p>  <input type="text" placeholder="Digite seu nome" required>
                 <p>Idade: </p><input type="number" required>
                 <p>Profissão:</p><input type="text" placeholder="Qual a sua Profissão" required>
-                <p>filhos:</p>  <input type="number">
-                <p>data Entrevista:</p>  <input type="date" required>
-            </form> 
-        
-            <form class="questionario" action="">
-                <p>Você sabe oque é violência obstétrica? </p>
+                <p>Filhos:</p>  <input type="number">
+                <p>Data Entrevista:</p>  <input type="date" required>
+            </div><!--form-pessoal-->
+            
+          
+            <div class="quest">
+
+                
+                <p class="paragrafo_quest">Você sabe oque é violência obstétrica? </p>
                 <label for="violencia">SIM</label>
                 <input type="radio" id="S" name ="violencia" value="S">
 
@@ -44,7 +48,7 @@
                 <input type="radio" id="N" name ="violencia" value="N"><br>
 
 
-                <p>Você achou que sofreu violência obstétrica no seu parto?</p>
+                <p class="paragrafo_quest">Você achou que sofreu violência obstétrica no seu parto?</p>
                 <label for="violencia_no_parto">SIM</label>
                 <input type="radio" id="S" name ="violencia_no_parto" value="S">
 
@@ -54,25 +58,33 @@
 
 
 
-                <p>Em sua opinião, você acha que existem dificuldades para a realização de práticas de assistência humanizada?</p>
-                <label for="assishuma">SIM</label>
+                <p class="paragrafo_quest">Em sua opinião, você acha que existem dificuldades para a realização de práticas de assistência humanizada?</p>
+                <label for="assishuma" class="res-quest">SIM</label>
                 <input type="radio" id="S" name ="assishuma" value="S">
 
-                <label for="assishuma">NAO</label>
+                <label for="assishuma" class="res-quest">NAO</label>
                 <input type="radio" id="N" name ="assishuma" value="N"><br>
                 <textarea name="violencia_parto" id="violencia_parto" cols="30" rows="5" placeholder="Justifique..."></textarea>
 
 
-                <p>Para melhoria da assistência ao parto, o que você acha que deveria ser realizado?</p>
+                <p class="paragrafo_quest">Para melhoria da assistência ao parto, o que você acha que deveria ser realizado?</p>
                 <textarea name="violencia_parto" id="violencia_parto" cols="30" rows="5" placeholder="Justifique..."></textarea>
 
-                <p>Quais atividades foram realizadas pelo enfermeiro que fizeram diminuir as dores durante o trabalho de parto?</p>
+                <p class="paragrafo_quest">Quais atividades foram realizadas pelo enfermeiro que fizeram diminuir as dores durante o trabalho de parto?</p>
                 <textarea name="violencia_parto" id="violencia_parto" cols="30" rows="5" placeholder="Justifique..."></textarea>
+            
+            </div><!--quest-->
             </form>
         </div>
 
         
         
     </section>
+    <footer>
+        <p>Enfermagem 9° semestre</p>
+        <p>Acadêmicos: Caciane Patrícia da Silva
+            Cristiane Fernandes da Conceição
+            Gabriela Conink</p>
+    </footer>
 </body>
 </html>
